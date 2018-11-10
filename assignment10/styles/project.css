@@ -1,0 +1,27 @@
+html {
+  font-size: 100%;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+  color: #000000;
+  background: #ffffff;
+
+}
+
+h1, h2 {
+  font-family: "Raleyway", sans-serif;
+}
+
+p {
+  font-family: "Slabo 27px", serif;
+}
+
+@media screen and (max-width: 670px) {
+    html {
+      padding: 1em;
+      margin: 1em;
+    }
+    img {
+      width: 100%;
+    }
+}
